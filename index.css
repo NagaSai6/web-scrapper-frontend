@@ -1,0 +1,16 @@
+.main{
+    margin-top: 200px;
+}
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -900;
+  }
+
+  @media screen and (max-width : 550px) {
+    .child-1{
+        width: 80% !important;
+    }
+  }
